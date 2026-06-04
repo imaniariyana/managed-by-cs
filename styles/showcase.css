@@ -1,0 +1,11 @@
+.showcase {
+  padding: 80px 40px;
+}
+
+.showcase__image {
+  width: 100%;
+  max-width: 1200px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 20px;
+}
