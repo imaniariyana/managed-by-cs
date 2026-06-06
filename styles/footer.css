@@ -1,0 +1,32 @@
+.footer {
+  border-top: 1px solid #ddd8cf;
+  padding: 50px 60px;
+  background-color: #f8f6f1;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__logo {
+  font-family: "Playfair Display", serif;
+  font-size: 42px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.footer__copyright {
+  font-size: 18px;
+  color: #666;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .footer__content {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+}

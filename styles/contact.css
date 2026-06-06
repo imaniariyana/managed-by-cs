@@ -1,0 +1,72 @@
+.contact {
+  padding: 100px 60px;
+  background-color: #f8f6f1;
+}
+
+.contact__title {
+  font-size: 42px;
+  margin-bottom: 56px;
+}
+
+.contact__list {
+  display: grid;
+  gap: 40px;
+  margin-bottom: 64px;
+}
+
+.contact__item p {
+  font-size: 22px;
+  color: #666;
+  margin: 0 0 8px;
+}
+
+.contact__label {
+  font-weight: 700;
+  color: #1c1c1c !important;
+}
+
+.business-hours {
+  border-top: 1px solid #ddd8cf;
+  padding-top: 48px;
+}
+
+.business-hours h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 32px;
+  font-weight: 400;
+  margin: 0 0 32px;
+}
+
+.business-hours__row {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  font-size: 20px;
+  color: #666;
+  margin-bottom: 16px;
+}
+
+@media (max-width: 900px) {
+  .process__steps {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .process,
+  .contact {
+    padding: 80px 24px;
+  }
+
+  .process__title {
+    font-size: 48px;
+  }
+
+  .process__steps {
+    grid-template-columns: 1fr;
+  }
+
+  .business-hours__row {
+    flex-direction: column;
+  }
+}
